@@ -1,0 +1,74 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .1s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a362df;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 20px;
+}
+
+.card-container {
+    display: flex;
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0 ,0, .1);
+}
+
+.header {
+    border-right: 1px solid #ddd;
+}
+
+.header, .description{
+    padding: 20px;
+    text-align: center;
+}
+
+.header a {
+    position: relative;
+    display: flex;
+}
+
+.header img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(0, 0 ,0, 0.6);
+    margin: 20px 30px;
+    transition: 1.9s;
+}
+
+.header a:hover img {
+    box-shadow: 0 0 0 12px rgba(0, 0 ,0, .2);
+}
+
+
+
+.header h2 {
+    color: blue;
+}
+
+.header h4 {
+    margin-bottom: 20px;
+}
+
+.description .p{
+    margin-top: 20px 30px;
+}
+
+.description .redes {
+    margin-top: 25px;
+}
+
+.description .redes a {
+    display: inline-block;
+    padding: 0 15px;
+    color: black;
+}
